@@ -1,6 +1,9 @@
 {
   "$schema": "https://gofastmcp.com/public/schemas/fastmcp.json/v1.json",
-  "entrypoint": "server.py",
+  "source": {
+      "path": "server.py",
+      "entrypoint": "mcp"
+    },
   "environment": {
     "dependencies": ["requests", "python-frontmatter"]
   }
